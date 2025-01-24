@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+// const { MONGO_URI } = require("./config");
 dotenv.config();
 
 mongoose
