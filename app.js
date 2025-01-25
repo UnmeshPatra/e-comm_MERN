@@ -6,7 +6,7 @@ const ownersRouter = require("./routes/ownersRouter")
 const productRouter = require("./routes/productRouter")
 const userRouter = require("./routes/userRouter")
 
-const db = require("./config/mongooes-connect")
+const db = require("./config/mongoose-connect")
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
